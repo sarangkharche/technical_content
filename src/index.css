@@ -34,6 +34,23 @@
   text-fill-color: transparent;
 }
 
+.text-gradient-whyphy {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #ffecd0 0.89%,
+    /* slightly lighter than #E6E3DD */ #e8e6e3 17.23%,
+    /* very close to #E6E3DD, a bit lighter */ #ffd683 42.04%,
+    /* your chosen color */ #ffd9a7 55.12%,
+    /* slightly darker and muted */ #ffd5ab 71.54%,
+    /* deeper shade for contrast */ #ffbaa3 100% /* even darker for depth */
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -43,6 +60,19 @@
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
     #33bbcf 90.29%
+  );
+}
+
+.bg-whyphy-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #f7f6f4 -43.27%,
+    /* lighter shade of #E6E3DD */ #f0efed -21.24%,
+    /* slightly lighter shade of #E6E3DD */ #e6e3dd 12.19%,
+    /* base color */ #dcd9d4 29.82%,
+    /* slightly darker shade of #E6E3DD */ #d2cfca 51.94%,
+    /* darker shade of #E6E3DD */ #c8c5c0 90.29%
+      /* even darker shade of #E6E3DD */
   );
 }
 
