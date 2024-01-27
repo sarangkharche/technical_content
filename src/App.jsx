@@ -1,6 +1,10 @@
 import styles from "./style";
 import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from "./component";
 
+import { inject } from '@vercel/analytics';
+
+inject();
+
 const App = () =>
 (
   // navbar
