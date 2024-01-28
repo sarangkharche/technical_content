@@ -1,4 +1,6 @@
-# React + Vite
+# Whyphy Landing Page Using React JS
+
+## **Deployed on Vercel**
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
