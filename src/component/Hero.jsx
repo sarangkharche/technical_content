@@ -20,8 +20,8 @@ const Hero = () => (
 
             <div className="flex flex-row justify-between items-center w-full">
                 <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[90px] leading-[75px]">
-                    Technical Content <br className="sm:block hidden" /> {" "}
-                    <span className="text-gradient">Made Easy</span> {" "}
+                    Writing Technical Content <br className="sm:block hidden" /> {" "}
+                    <span className="text-gradient">For You.</span> {" "}
 
                 </h1>
 
@@ -30,10 +30,12 @@ const Hero = () => (
                 </div>
             </div>
 
-            <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]"> For Everyone.
-            </h1>
+            <button className="font-poppins font-semibold ss:text-[28px] text-[52px] text-white ss:leading-[50px] leading-[75px] bg-blue-500 hover:bg-blue-600 py-1 px-4 rounded mt-5 mb-5">
+                Get Started
+            </button>
+
             <p className={`${styles.paragraph} max-w-[470px] mt-5}`}>
-                At Technical Content Made Easy, we specialize in breaking down intricate technical concepts into simple, easy to understand, and relatable content.
+                At Whyphy Teh, we specialize in breaking down intricate technical concepts into simple, easy to understand, and relatable content.
             </p>
         </div>
 
@@ -42,7 +44,7 @@ const Hero = () => (
             <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
             {/* changed to blue from white  */}
             <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 blue__gradient" />
-            {/* changed to black from blue */}
+            {/* changed to black from blue   */}
             <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 black__gradient" />
 
 
